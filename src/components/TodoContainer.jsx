@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/TodoContainer.css";
 import TodoInput from "./TodoInput";
+import TodoList from "./TodoList";
 
 const TodoContainer = () => {
   const [todos, setTodos] = useState([]);
@@ -29,6 +30,7 @@ const TodoContainer = () => {
   return (
     <div className="todo-container">
       <TodoInput setTodos={setTodos} todos={todos} />
+      <TodoList setTodos={setTodos} todos={todos} />
     </div>
   );
 };

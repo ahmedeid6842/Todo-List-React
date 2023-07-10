@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/TodoContainer.css";
+import TodoInput from "./TodoInput";
 
 const TodoContainer = () => {
   const [todos, setTodos] = useState([]);
@@ -24,9 +25,10 @@ const TodoContainer = () => {
       setTodos(localTodos);
     }
   };
+
   return (
     <div className="todo-container">
-      <h1>setUp localStorage</h1>
+      <TodoInput setTodos={setTodos} todos={todos} />
     </div>
   );
 };

@@ -1,0 +1,49 @@
+.edit-icon {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+
+.trash-icon {
+  cursor: pointer;
+  width: 3.5rem;
+}
+
+.todo {
+  width: 40rem;
+  height: 5rem;
+  border: 1px solid var(--gray-clr);
+  background-color: var(--bg-secondary);
+  color: var(--white-clr);
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.todo__info {
+  width: 80%;
+}
+
+.todo__options {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.todo__options img {
+  width: 2.2rem;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}

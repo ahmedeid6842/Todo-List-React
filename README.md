@@ -1,70 +1,182 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+  <h3><b>Todo List</b></h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
 
-### `npm test`
+# 📗 Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm run build`
+<!-- PROJECT DESCRIPTION -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 📖 Todo List<a name="about-project"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Todo List** Todo List" is a web application that assists in organizing your daily tasks. With this app, you can easily list the things that you need to do and mark them as complete once they are done. The app is built using ES6 and Webpack, and it provides a simple and intuitive interface for managing your tasks. Use "Todo List" to streamline your day and increase your productivity.
 
-### `npm run eject`
+## 🛠 Built With <a name="built-with"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tech Stack <a name="tech-stack"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>React</li>
+  </ul>
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Features -->
 
-## Learn More
+### Key Features <a name="key-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- A good JS and CSS Design. 
+- Using React 
+- Good RADME
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Here is the [live-demo](https://ahmedeid6842.github.io/Todo-List-React/)
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- GETTING STARTED -->
 
-### Advanced Configuration
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To get a local copy up and running, follow these steps.
 
-### Deployment
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+In order to run this project you need:
 
-### `npm run build` fails to minify
+- Create a repo on your repositores files.
+- Clone or make a copy of this repo on your local machine.
+- Follow GitHub flow.
+- A carefully reading of this README.md is required.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Setup
+
+Clone this repository to your desired folder:
+ 
+ ```bash
+ cd my-folder
+ git clone https://github.com/ahmedeid6842/ToDo-List.git
+```
+
+### Install
+
+Install this project with:
+
+ ```bash
+ npm install
+```
+
+### Usage
+
+To run the project: 
+```bash
+ npm start
+```
+
+To build the project: 
+```bash
+npm run build
+```
+
+### Run tests
+
+To run tests, execute the following command:
+
+```bash
+ npx hint .
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Ahmed Eid**
+
+- GitHub: [@ahmedeid6842](https://github.com/ahmedeid6842)
+- Twitter: [ahmedeid2684](https://twitter.com/ahmedeid2684
+)
+- LinkedIn: [Ahmed Eid](https://www.linkedin.com/in/ahmed-eid-0018571b1/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] Apply the Addition and removal functionality
+- [ ] Make the project more interactive
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+If you like this project feel free to leave a start, all contributions are welcome!.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+We would like to thank Microverse comunity, they do an excellent job. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+_NOTE: we recommend using the [MIT license]<a href="LICENSE.md">
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

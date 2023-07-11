@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import TodoContainer from "./components/TodoContainer";
 
 function App() {
   return (
     <div className="App">
-     <h1>Welcome Todo React</h1>
+      <TodoContainer/>
     </div>
   );
 }
